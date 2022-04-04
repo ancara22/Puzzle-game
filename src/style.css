@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainBox {
+    width: 60vw;
+    height: 60vw;
+    max-height: 80vh;
+    max-width: 80vh;
+    background-color: rgb(253, 237, 246);
+    margin: 0 auto;
+    position: relative;
+}
+
+.btn {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 50px;
+}
+
+.box {
+    top: 0px;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    border: 0;
+    user-select: none;
+    cursor: pointer;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    box-shadow: 0px 0px 0px 0px white;
+    font-size: 18px;
+    transition: 1s;
+    z-index: 0;
+}
+
+.hide {
+    opacity: 0;
+}
